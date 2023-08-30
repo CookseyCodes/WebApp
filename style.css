@@ -75,7 +75,7 @@
     }
 
 
-
+rework
 
 
 
@@ -89,7 +89,7 @@
 
     body {
         background-color: #111418;
-        height: 2000px;
+        height: 1800px;
         font-family: "inter", sans-serif;
     }
 
@@ -169,7 +169,8 @@
 
     
     .main__summary, .main__skills, .main__experience/* , .main__contact__list */ {
-        border: solid rgba(40, 77, 158, 0.452) 1px;
+/*         border: solid rgba(40, 77, 158, 0.452) 1px; */
+        box-shadow: 1px 1px 10px rgba(40, 77, 158, 0.377);
     }
 
 
@@ -183,7 +184,7 @@
 
 .main__summary {
     padding: 20px 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: #111418;
     width: 100%;
     border-radius: 25px;
 }
@@ -211,7 +212,7 @@
 
 .main__skills {
     padding: 20px 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: #111418;
     width: 98%;
     border-radius: 20px;
 }
@@ -242,7 +243,7 @@
 }
 .main__experience {
     padding: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: #111418;
     border-radius: 20px;
 }
 
