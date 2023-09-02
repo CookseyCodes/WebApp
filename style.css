@@ -100,6 +100,7 @@
         height: 1800px;
         font-family: "inter", sans-serif;
         font-size: 22px;
+        min-width: 450px;
     }
 
     .header {
@@ -145,19 +146,25 @@
         text-align: left;
         text-justify: left;
         margin-block: auto;
-        width: 85%;
+        width: 95%;
         box-shadow: 3px 3px 30px 5px rgba(0, 0, 0, 0.452);
         border-radius: 15px;
     }
 
     .page1__content {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+/*         display: grid;
+        grid-template-rows: 1fr 1fr; 
+        gap: 1rem; */
         max-width: 100%;
         max-height: 100vh;
+
     }
 
-
+    .page1__image {
+        width: 95%;
+        margin-inline: auto;
+        padding-top: 20px;
+    }
 
     .page1__image img {
         width: 100%;
@@ -175,6 +182,7 @@
     h2 {
         padding: 20px;
     }
+
     .page1__text h2 {
         font-size: 36px;
     }
