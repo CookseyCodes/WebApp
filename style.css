@@ -288,41 +288,46 @@
     .connectContainer__github {
         display: flex;
         flex-direction: row;
+        gap: 3rem;
         justify-content: space-between;
-        margin-inline: auto;
-        margin-block: auto;
+        color: white;
         font-size: 50px;
-        align-items: center;
-        padding: 1rem;
+        padding: 2rem;
         border-radius: 2rem;
         box-shadow: 10px 15px 5px 5px #3399ff8e;
         border: .5rem solid #3399ff8e;
     }
     
     .connectContainer__linkedin {
-/*         display: grid;
-        grid-template-columns: .7fr .3fr; */
         display: flex;
         flex-direction: row;
+        gap: 3rem;
         justify-content: space-between;
-        margin-inline: auto;
-        margin-block: auto;
+        color: white;
         font-size: 50px;
         padding: 2rem;
-
         border-radius: 2rem;
         box-shadow: -10px 15px 5px 5px #3399ff8e;
         border: .5rem solid #3399ff8e;
     }
 
+    /* Aligns the text "GitHub */
+    .github__image {
+        text-align: center;
+    }
+    /* Aligns the text "LinkedIn */
+    .linkedin__image {
+        text-align: center;
+    }
 
 
-
+    /* Makes linked in image not MASSIVE */
     .connectContainer__linkedin img{
         width: 100%;
         margin-inline: auto;
     }
 
+    /* Aligns the  */
     .connectContainer__linkedin a,
     .connectContainer__github a {
         margin-block: auto;
