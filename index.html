@@ -4,71 +4,94 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&family=Source+Code+Pro:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Source+Code+Pro:wght@400;600;800&display=swap" rel="stylesheet">
     <title>.Cooksey</title>
     <body>
         <header class="header">
-            <div class="header__grid">
-                <a href="#" class="logo">.Cooksey</a>
-                <nav class="nav">
+                <a href="#" class="logo">Cooksey</a>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </input>
+<!--                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#" class="nav__btn">Home</a>
-                        </li>
+                            <a href="#" class="nav__link">Home</a>
                         <li class="nav__item">
                             <a href="#page2" class="nav__link">Section2</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#page3" class="nav__link">Section3</a>
+                            <a href="#page3" class="nav__link">Resume</a>
                         </li>
                         <li class="nav__item">
                             <a href="#page4" class="nav__link">Links</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </nav>
-                <div></div>
-            </div>    
+                <div></div>   
         </header>
         <main class="main">
-            <div class="wrapper">
-                <div class="page1">
-                    <div class="page1__content">
-                        <div class="page1__text">
-                            <h2 class="section__header">Solving Challenges, Scaling Solutions</h2>
-                            <p>Welcome to my corner of the web, where I leverage the power of Microsoft Azure to solve complex problems and scale innovative solutions. Explore how I combine my expertise in networking, Git, HTML, CSS, and more to transform ideas into reality.
-                            </p>
+            <div class="page1">
+                <div class="page1__content">
+                    <div class="page1__item">
+                        <h2>Solving Challenges, Scaling Solutions</h2>
+                        <p>Welcome to my corner of the web, where I leverage the power of Microsoft Azure to solve complex problems and scale innovative solutions. <!-- Explore how I combine my expertise in networking, Git, HTML, CSS, and more to transform ideas into reality. --></p>
+                    </div>
+                    <div class="page1__item">
+                        <img src="/Pics/azure.png">
+                    </div>
+                </div>
+            </div>
+            <div class="page2">
+                <div class="page2__content">
+                    <div class="page2__item"> 
+                        <p>Being a good self-learner means embracing curiosity as your compass and tenacity as your fuel. Here are some of my skills and tools I utilize.</p>        
+                    </div>
+                    <div class="page2__skillsContainer">
+                        <div class="skillsContainer__skills">
+<!--                             <h3>Skills</h3> -->
+                            <ul>
+                                <li>Virtualization</li>
+                                <li>Bash</li>
+                                <li>Linus/Windows</li>
+                                <li>HTML/CSS</li>
+                                <li>Networking</li>
+                                <li>DNS</li>
+                            </ul>
+                        </div>
+                        <div class="skillsContainer__tools">
+<!--                             <h3>Tools</h3> -->
+                            <ul>
+                                <li>Azure</li>
+                                <li>HyperV</li>
+                                <li>Git/GitHub</li>
+                                <li>VS Code</li>
+                                <li></li>
+                                <li></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                
-                
-                <div class="page2" id="page2">
-                    <div class="page__content">
-                        <h2 class="section__header">Section 2</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione esse, cupiditate maiores aliquid quos, vero nihil, dolorum itaque illum officia quo rem atque sit magni? Dolores, sint ea? Saepe!</p>
-                    </div>   
-                </div>
-                
-                
-                <div class="page3" id="page3">
-                    <div class="page__content">
-                        <h2 class="section__header">Section 3</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione esse, cupiditate maiores aliquid quos, vero nihil, dolorum itaque illum officia quo rem atque sit magni? Dolores, sint ea? Saepe!</p>
+                    <div class="resumeContainer">
+                        <h4 class="resume">View my resume</h3>
                     </div>
                 </div>
-                
-                
-                <div class="page4" id="page4">
-                    <div class="page__content">
-                        <h2 class="section__header">Section 4</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ratione esse, cupiditate maiores aliquid quos, vero nihil, dolorum itaque illum officia quo rem atque sit magni? Dolores, sint ea? Saepe!</p>
+            </div>
+            <div class="page3">
+                <div class="page3__content">
+                    <div class="page3__item">
+                        <h2>Connect with me</h2>
+                        <div class="page3__connectContainer">
+                            <a href="https://github.com/CookseyCodes" class="connectContainer__github">
+                                <img src="Pics/email.png">
+                                <p>GitHub</p>
+                            </a>
+                            <a href="https://www.linkedin.com/in/zachary-cooksey-345357206/" class="connectContainer__linkedin">
+                                <img src="Pics/linkedin.png">
+                                <p>LinkedIn</p>
+                            </a>
+                        </div> 
                     </div>
                 </div>
-                
-                
-
             </div>
         </main>
     </body>
