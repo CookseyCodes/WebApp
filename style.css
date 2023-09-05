@@ -29,8 +29,6 @@
 
 
 
-
-
 /* 
 /////////////////////////// TOP NAV BAR ///////////////////////////
 */
@@ -56,7 +54,7 @@
 .logo {
     font-size: 100px;
     font-weight: 600;
-    letter-spacing: -12px;
+    letter-spacing: -6px;
     margin-inline: auto;
     color: white;
 }
@@ -113,7 +111,7 @@
         color: white;
         height: 1800px;
         font-family: 'Outfit', sans-serif;
-        font-family: 'Source Code Pro', monospace;
+        /* font-family: 'Source Code Pro', monospace; */
         font-size: 60px;
         min-width: 450px;
     }
@@ -135,7 +133,7 @@
 .page1__content,
 .page2__content,
 .page3__content {
-    padding: 0rem 4rem;
+    padding: 0rem 3rem;
 }
 
 
@@ -166,7 +164,7 @@
     width: 100%;
     height: 22rem;
     position: absolute;
-    bottom: 0%;
+    bottom: -1%;
     z-index: -1;
 }
 
@@ -214,23 +212,23 @@
     background-color: #3399ff;
     border-radius: 20rem;
 
-    padding: 1rem 0rem;
-    word-spacing: -5px;
-    letter-spacing: -5px;
+    padding: 1rem 2rem;
+    word-spacing: -3px;
+    letter-spacing: -1px;
     z-index: 2;
 }
 
 .resumeContainer {
-    margin-inline: auto;
     padding-bottom: 2rem;
-    width: 37rem;
     z-index: 2;
+    padding-inline: auto;
+    text-align: center;
 }
 
 .page2::after {
     content: "";
     width: 100%;
-    height: 5.5rem;
+    height: 4.5rem;
     position: absolute;
     bottom: 0%;
     background-color: #08172b;
@@ -276,30 +274,66 @@
         color: white;
     }
 
+    .page3 h2 {
+        text-align: center;
+    }
+
     .page3__connectContainer {
         display: flex;
-        flex-direction: row;
-        
+        flex-direction: column;
+        padding-block: 3rem;
+        gap: 5rem;
     }
 
-    .connectContainer__linkedin,
     .connectContainer__github {
-        background-color: #08172b;
-        color: white;
-        width: 20rem;
-        height: 25rem;
-        border-radius: 2rem;
-        box-shadow: 0px 0px 20px #ffffff60;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         margin-inline: auto;
         margin-block: auto;
-        padding: 3rem;
-        text-align: center;
         font-size: 50px;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 2rem;
+        box-shadow: 10px 15px 5px 5px #3399ff8e;
+        border: .5rem solid #3399ff8e;
+    }
+    
+    .connectContainer__linkedin {
+/*         display: grid;
+        grid-template-columns: .7fr .3fr; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-inline: auto;
+        margin-block: auto;
+        font-size: 50px;
+        padding: 2rem;
+
+        border-radius: 2rem;
+        box-shadow: -10px 15px 5px 5px #3399ff8e;
+        border: .5rem solid #3399ff8e;
     }
 
-    .connectContainer__linkedin img, 
-    .connectContainer__github img {
+
+
+
+    .connectContainer__linkedin img{
         width: 100%;
+        margin-inline: auto;
+    }
+
+    .connectContainer__linkedin a,
+    .connectContainer__github a {
+        margin-block: auto;
+        color: white;
+        text-align: center;
+    }
+    .connectContainer__github a {
+        margin-right: 4rem;
+    }
+    .connectContainer__linkedin a {
+        margin-left: 4rem;
     }
 
 
