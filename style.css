@@ -24,6 +24,13 @@
 
 
 
+    /* Variables */
+    :root {
+        --dark: #08172b;
+
+        /* For white background and text */
+        --white: #ffffff;
+    }
 
 
 
@@ -56,7 +63,7 @@
     font-weight: 600;
     letter-spacing: -6px;
     margin-inline: auto;
-    color: white;
+    color: var(--white);
 }
 .logo::before {
     content: "<";
@@ -83,7 +90,7 @@
 }
 
 .header__button div {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white);
     width: 90px;
     height: 15px;
     margin: 10px;
@@ -107,8 +114,8 @@
 */
 
     body {
-        background-color: #08172b;
-        color: white;
+        background-color: var(--dark);
+        color: var(--white);
         height: 1800px;
         font-family: 'Outfit', sans-serif;
         /* font-family: 'Source Code Pro', monospace; */
@@ -160,9 +167,9 @@
 
 .page1::after {
     content: "";
-    background-color: #ffffff;
+    background-color: var(--white);
     width: 100%;
-    height: 22rem;
+    height: 24rem;
     position: absolute;
     bottom: -1%;
     z-index: -1;
@@ -178,8 +185,8 @@
 
 .page2 {
 /*     height: 50rem; */
-    background-color: white;
-    color: #08172b;
+    background-color: var(--white);
+    color: var(--dark);
     position: relative;
     z-index: -1;
 }
@@ -199,8 +206,8 @@
 
 .skillsContainer__skills,
 .skillsContainer__tools {
-    background-color: #ffffff;
-    color: #08172b;
+    background-color: var(--white);
+    color: var(--dark);
     padding: 3rem 1rem;
     text-align: left;
     font-size: 50px;
@@ -208,7 +215,7 @@
 
 .resume {
     text-align: center;
-    color: #ffffff;
+    color: var(--white);
     background-color: #3399ff;
     border-radius: 20rem;
 
@@ -231,7 +238,7 @@
     height: 4.5rem;
     position: absolute;
     bottom: 0%;
-    background-color: #08172b;
+    background-color: var(--dark);
     z-index: -1;
 }
 
@@ -270,8 +277,8 @@
 
 
     .page3 {
-        background-color: #08172b;
-        color: white;
+        background-color: var(--dark);
+        color: var(--white);
     }
 
     .page3 h2 {
@@ -290,7 +297,7 @@
         flex-direction: row;
         gap: 3rem;
         justify-content: space-between;
-        color: white;
+        color: var(--white);
         font-size: 50px;
         padding: 2rem;
         border-radius: 2rem;
@@ -303,7 +310,7 @@
         flex-direction: row;
         gap: 3rem;
         justify-content: space-between;
-        color: white;
+        color: var(--white);
         font-size: 50px;
         padding: 2rem;
         border-radius: 2rem;
@@ -331,7 +338,7 @@
     .connectContainer__linkedin a,
     .connectContainer__github a {
         margin-block: auto;
-        color: white;
+        color: var(--white);
         text-align: center;
     }
     .connectContainer__github a {
