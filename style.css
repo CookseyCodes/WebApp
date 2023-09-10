@@ -347,73 +347,52 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*     .page1,
-    .page2,
-    .page3,
-    .page4 {
-        height: 100vh;
-        max-height: 100vh;
+    /* Email Container  */
+    .email__container {
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background-image: url(WebApp\ Background.png);
+        flex-direction: row;
+        gap: 3rem;
+        justify-content: space-between;
+        color: var(--white);
+        font-size: 50px;
+        padding: 2rem;
+        border-radius: 2rem;
+        box-shadow: 10px 15px 5px 5px #3399ff8e;
+        border: .5rem solid #3399ff8e;
     }
 
-    .page2,
-    .page4 {
-        background-color: rgb(18, 38, 77);
-    }
-
-
-    .page1__text {
-        text-align: left;
-        text-justify: left;
-        width: 95%;
-        box-shadow: 3px 3px 30px 5px rgba(0, 0, 0, 0.452);
-        border-radius: 15px;
-        padding: 20px;
+    .email__image img {
+        width: 80%;
+        height: 60%;
         margin-inline: auto;
     }
 
-    .page1__content {
-        max-width: 100%;
-        max-height: 100vh;
+    .email__input {
+        justify-content: space-between;
     }
 
-
-    .page1__text 
-    p, 
-    h2 {
-        padding: 20px;
-    }
-
-    .page1__text h2 {
-        font-size: 97px;
-    }
+#Name,
+#youremail,
+#email {
+    width: 100%;
+}
 
 
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
