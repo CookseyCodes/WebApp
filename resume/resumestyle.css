@@ -30,6 +30,9 @@ html {
 
     /* For white background and text */
     --white: #ffffff;
+
+    /* Custom Blue */
+    --blue: #3399ff;
 }
 
 
@@ -40,8 +43,25 @@ html {
 
 /* Main */
 
+.home {
+    background-color: var(--blue) ;
+    width: 15rem;
+    height: 6rem;
+    text-align: center;
+    margin-left: 4rem;
+    margin-block: 2rem;
+    font-size: 80px;
+}
+
+
+
+
 .wrapper {
     margin-inline: auto;
-    width: 80%;
+    width: 100%;
     height: 1800px;
+}
+
+img {
+    width: 100%;
 }
