@@ -48,9 +48,11 @@ html {
     width: 15rem;
     height: 6rem;
     text-align: center;
-    margin-left: 4rem;
+    margin-left: 3.5rem;
     margin-block: 2rem;
     font-size: 80px;
+    border-radius: 1rem;
+    color: white;
 }
 
 
