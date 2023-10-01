@@ -422,7 +422,6 @@ word-wrap: break-word;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-/*         background-color: yellow; */
         height: 10rem;
     }
 
@@ -631,11 +630,32 @@ padding-top:20px;
 
 
 .email__input p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .email__image {
     margin-block: unset;
+}
+
+#youremail,
+#email {
+    font-size: 22px;
+}
+
+
+/* FOOTER */
+
+.links img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.footer {
+    height: 10rem;
+}
+
+.footer__content {
+    height: 8rem;
 }
 
 
