@@ -492,7 +492,7 @@ word-wrap: break-word;
 */
 
 body {
-    font-size: 40px;
+    font-size: 28px;
     min-width: 450px;
 }
 
@@ -513,7 +513,7 @@ padding-top:20px;
 .page2__content,
 .page3__content,
 .page4__content {
-    padding: 5rem 15rem;
+    padding: 5rem 20rem;
 }
 
 
@@ -577,7 +577,7 @@ padding-top:20px;
     .skillsContainer__tools {
         padding: unset;
         text-align: left;
-        font-size: 35px;
+        font-size: 28px;
     }
     
     .resume {
@@ -604,19 +604,26 @@ padding-top:20px;
  .email__container {
     flex-direction: column;
     max-height: 50rem;
-    min-height: 45rem;
-    min-width: 30rem;
-    width: 30rem;
-    font-size: 40px;
+    min-height: 35rem;
+    max-width: 25rem;
+    font-size: 32px;
  }
 
 .github__image,
 .linkedin__image,
 .email__image {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 8rem;
+    max-height: 8rem;
     margin-inline: auto;
 }
+
+.github__image img,
+.linkedin__image img,
+.email__image img {
+    max-width: 100%;
+    max-height: auto;
+}
+
 
 .connectContainer__linkedin {
     flex-direction: column-reverse;
@@ -624,8 +631,13 @@ padding-top:20px;
 
 
 .email__input p {
-    font-size: 30px;
+    font-size: 20px;
 }
+
+.email__image {
+    margin-block: unset;
+}
+
 
 }
 
